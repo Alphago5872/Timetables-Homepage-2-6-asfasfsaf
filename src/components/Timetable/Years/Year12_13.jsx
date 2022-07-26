@@ -1,6 +1,5 @@
-import "../../sass/components/_timetable.scss";
-import TimeBox from "./TimeBox";
-import weekdayBox from "./WeekdayBox";
+import TimeBox from "../TimeBox";
+import weekdayBox from "../WeekdayBox";
 
 function Box({ children, ...props }) {
   return <div {...props}>{children}</div>;
@@ -44,52 +43,52 @@ const Year12_13 = (props) => {
 
         <TimeBox subject="Tuesday" color="#FF7F7F" no_hover />
         <TimeBox
-          subject="Aviation 101"
-          teacher="Earth, Noey, Nan"
-          room="Room 1-4"
-        />
-        <TimeBox
-          subject="Cinematics"
-          teacher="Namfon, Ya, Na, Aom"
+          subject="Problem Solving with Your Team"
+          teacher="Earth, Jay, Noey"
           room="Room 11-12"
         />
-        <TimeBox subject="Easy Korean" teacher="Nan, Ramon" room="Room 1-4" />
         <TimeBox
-          subject={"Be There,\n Be Square"}
-          teacher="Namfon, Ya, Sareena, Amy"
-          room="Room 1-4"
+          subject="Sex Education"
+          teacher="Aom, New, Noey, Oho, Namfon"
+          room="Room 11-12"
+        />
+        <TimeBox subject="Introduction to Harvard CS50" teacher="Xeersoft" room="Room 8-10 (Fl 9)" />
+        <TimeBox
+          subject={"Mocktail"}
+          teacher="Bib, New"
+          room="Room 11-12 (Fl 9)"
         />
 
         <TimeBox subject="Wednesday" color="#6EDF64" no_hover />
         <TimeBox
-          subject="Strong survive"
-          teacher="Namfon, Ya, Oho, Amy"
-          room=""
+          subject="Runic Astrology"
+          teacher="Best"
+          room="Room 11-12 (Fl 9)"
         />
-        <TimeBox subject="Shop in Japan" teacher="Best Ramon" room="" />
+        <TimeBox subject="Battle of the Brains" teacher="Earth, Dev, Win, Ya, Fluke" room="Room 1-4 (Fl 11)" />
         <TimeBox
-          subject="Thai Game"
-          teacher="Nan, Ramon, Got, Punch"
-          room="Room 1-4"
-        />
-        <TimeBox
-          subject="Board Game"
-          teacher="June, Sun, Bib"
-          room="Room 8-10"
+          subject="Upcycle Challenge"
+          teacher="Ed"
+          room="Room Unknown"
+          hori="2"
         />
 
         <TimeBox subject="Thursday" color="#FF8A00" no_hover />
         <TimeBox
-          subject="CS50x"
-          teacher="Ith"
-          room="Room 1-4 (Fl 11)"
-          hori="2"
+          subject="The Sims™"
+          teacher="Noey, Jay, Yui"
+          room="Room 11-12 (Fl 9)"
         />
-        <TimeBox subject="Easy Korean" teacher="Nan, Ramon" room="Room 1-4" />
+        <TimeBox subject="Self-Care for Stress Management" teacher="Bank, Got" room="Room 11-12 (Fl 9)" />
         <TimeBox
-          subject="Friend Bracelet"
-          teacher="Namfon, Mink"
-          room="Room 8-10"
+          subject="Bakery"
+          teacher="New, Mink, Aom"
+          room="Room 11-12 (Fl 9)"
+        />
+         <TimeBox
+          subject="Boardgame"
+          teacher="June, Sun"
+          room="Room 11-12 (Fl 9)"
         />
 
         <TimeBox subject="Friday" color="#00988F" no_hover />

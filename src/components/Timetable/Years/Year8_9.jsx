@@ -1,5 +1,4 @@
 import TimeBox from "../TimeBox";
-import weekdayBox from "../WeekdayBox";
 
 function Box({ children, ...props }) {
   return <div {...props}>{children}</div>;
